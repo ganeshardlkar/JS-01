@@ -3,9 +3,9 @@ var employee = document.getElementById("employee");
 var e = document.getElementById("prof");
 
 let prof = [
-    {id:1, name:"john", age:"18", profession:"developer"},
-    {id:2, name:"jack", age:"20", profession:"developer"},
-    {id:3, name:"karen", age:"19", profession:"admin"}
+    {id:1, name:"John", age:"18", profession:"developer"},
+    {id:2, name:"Jack", age:"20", profession:"developer"},
+    {id:3, name:"Karen", age:"19", profession:"admin"}
 ]
 
 var value = '';
@@ -62,13 +62,13 @@ function renderHTML(item) {
     //             ${item.id}.
     //         </span>
     //         <span>
-    //             name: ${item.name}
+    //             Name: ${item.name}
     //         </span>
     //         <span>
-    //             age: ${item.age}
+    //             Age: ${item.age}
     //         </span>
     //         <span>
-    //             profession: ${item.profession}
+    //             Profession: ${item.profession}
     //         </span>
     //     </div>
     // `;
