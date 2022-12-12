@@ -44,13 +44,13 @@ function renderHTML(item) {
                     ${item.id}.
                 </span>
                 <span>
-                    name: ${item.name}
+                    Name: ${item.name}
                 </span>
                 <span>
-                    age: ${item.age}
+                    Age: ${item.age}
                 </span>
                 <span>
-                    profession: ${item.profession}
+                    Profession: ${item.profession}
                 </span>
                 
             </div>
